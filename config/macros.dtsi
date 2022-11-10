@@ -8,13 +8,13 @@ macro_start_safari: macro_start_safari{
 compatible = "zmk,behavior-macro";
 label = "macro_start_safari";
 #binding-cells = <0>;
-bindings = <&kp RG(K_VOL_DN)>;
+bindings = <&kp RG(C_VOL_DN)>;
 };
 macro_start_emacs: macro_start_emacs{
 compatible = "zmk,behavior-macro";
 label = "macro_start_emacs";
 #binding-cells = <0>;
-bindings = <&kp RG(K_VOL_UP)>;
+bindings = <&kp RG(C_VOL_UP)>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
