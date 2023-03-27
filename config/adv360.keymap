@@ -66,19 +66,19 @@ keymap {
 
   default_layer {
     bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp Q  &kp W  &kp F  &kp P  &kp B  &none  &none  &kp J  &kp L  &kp U  &kp Y  &hd MINUS SEMI  &none  &none  &kp A  &hm LCTRL R  &hm LALT S  &hm LGUI T  &kp G  &none  &none  &none  &none  &none  &none  &hm LSHIFT M  &hm RGUI N  &hm LALT E  &hm RCTRL I  &hd EQUAL O  &none  &none  &kp Z  &kp X  &kp C  &kp D  &kp V  &none  &none  &none  &none  &none  &none  &none  &none  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &none  &none  &none  &none  &none  &none  &kp BSPC  &hm LSHIFT ENTER  &none  &none  &td_mt  &kp SPACE  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &hd ESC Q  &kp W  &kp E  &hd LPAR R  &hd RPAR T  &none  &none  &kp Y  &kp U  &hd LBKT I  &hd RBKT O  &hd MINUS P  &none  &none  &kp A  &hm LCTRL S  &hm LALT D  &hm LSHIFT F  &hm LGUI G  &none  &none  &none  &none  &none  &none  &hm RGUI H  &hm RSHIFT J  &hm LALT K  &hm RCTRL L  &hd MINUS SEMI  &none  &none  &hd TAB Z  &kp X  &kp C  &kp V  &kp B  &none  &none  &none  &none  &none  &none  &none  &none  &kp N  &kp M  &kp COMMA  &kp DOT  &hd SQT FSLH  &none  &none  &none  &none  &none  &none  &kp SPACE  &kp ENTER  &none  &none  &hml LC(LS(LALT)) 1  &kp BSPC  &none  &none  &none  &none  &none
     >;
   };
 
   number_layer {
     bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &trans  &trans  &kp LBKT  &kp RBKT  &kp BSLH  &trans  &trans  &kp TAB  &hm LCTRL N4  &hm LALT N5  &hm LGUI N6  &kp MINUS  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &hm RGUI DOWN  &hm LALT UP  &hm RCTRL RIGHT  &kp SQT  &trans  &trans  &kp ESC  &kp N1  &kp N2  &kp N3  &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &hml LSHIFT 2  &trans  &trans  &hml LC(LS(LALT)) 0  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp ESC  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &trans  &trans  &kp LBKT  &kp RBKT  &kp BSLH  &trans  &trans  &kp TAB  &hm LCTRL N4  &hm LALT N5  &hm LSHIFT N6  &hm LGUI MINUS  &trans  &trans  &trans  &trans  &trans  &trans  &hm RGUI LEFT  &hm RSHIFT DOWN  &hm LALT UP  &hm RCTRL RIGHT  &kp SQT  &trans  &trans  &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0  &trans  &trans  &trans  &hml LC(LS(LALT)) 2  &trans  &trans  &trans  &trans  &trans  &trans
     >;
   };
 
   function_layer {
     bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &kp F7  &kp F8  &kp F9  &kp F10  &trans  &trans  &trans  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &bt BT_CLR  &trans  &trans  &bt BT_SEL 1  &kp F4  &kp F5  &kp F6  &kp F11  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(LS(TAB))  &kp LC(LS(TAB))  &kp LC(TAB)  &kp LG(TAB)  &trans  &trans  &trans  &bt BT_SEL 2  &kp F1  &kp F2  &kp F3  &kp F12  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bl BL_OFF  &bl BL_ON  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &hml LSHIFT 2  &trans  &trans  &hml LC(LS(LALT)) 0  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &kp F7  &kp F8  &kp F9  &kp F10  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR  &trans  &trans  &bt BT_SEL 1  &kp F4  &kp F5  &kp F6  &kp F11  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &hm RGUI C_VOL_DN  &hm LALT C_VOL_UP  &hm RCTRL C_MUTE  &trans  &trans  &trans  &bt BT_SEL 2  &kp F1  &kp F2  &kp F3  &kp F12  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bl BL_OFF  &bl BL_ON  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0  &trans  &trans  &trans  &hml LC(LS(LALT)) 2  &trans  &trans  &trans  &trans  &trans  &trans
     >;
   };
 };};
