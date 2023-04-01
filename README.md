@@ -1,5 +1,9 @@
 # ADV360-PRO-ZMK
 
+## my config
+
+https://yasushisakai.com/kinesis_Advantage_360_Pro.html
+
 ## To build Firmware in GitHub Actions
 
 ### Setup
@@ -11,29 +15,6 @@
 
 1. Push a commit to trigger the build.
 2. Download the artifact.
-
-## Local building in a container
-
-### Setup
-
-#### Software
-
-Either Podman or Docker is required, Podman is preferred if both are present.\
-Make is also required
-
-#### Windows specific
-If compiling on Windows use WSL2 and Docker [Docker Setup Guide](https://docs.docker.com/desktop/windows/wsl/).\
-Install make using `sudo apt-get install make`.\
-The repository can be cloned directly into the WSL2 instance or accessed through the C: mount point WSL provides by default (`/mnt/c/path-to-repo`).
-
-### Build firmware
-
-1. Execute `make`.
-2. Check the `firmware` directory for the latest firmware build.
-
-### Cleanup
-
-The built docker container and compiled firmware files can be deleted with `make clean`.
 
 ## Flashing firmware
 
