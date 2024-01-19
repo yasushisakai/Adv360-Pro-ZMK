@@ -65,13 +65,13 @@ keymap {
 
   number_layer {
     bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp ESC  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &trans  &trans  &kp LBKT  &kp RBKT  &kp BSLH  &trans  &trans  &kp TAB  &hm LCTRL N4  &hm LALT N5  &hm LSHIFT N6  &hm LGUI MINUS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &hm RGUI LEFT  &hm RSHIFT DOWN  &hm LALT UP  &hm RCTRL RIGHT  &kp SQT  &trans  &trans  &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0  &trans  &trans  &trans  &hml LC(LS(LALT)) 2  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp ESC  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &trans  &trans  &kp LBKT  &kp RBKT  &kp BSLH  &trans  &trans  &kp TAB  &hm LCTRL N4  &hm LALT N5  &hm LSHIFT N6  &hm LGUI MINUS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &hm RGUI LEFT  &hm RSHIFT DOWN  &hm LALT UP  &hm RCTRL RIGHT  &kp SQT  &trans  &trans  &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0  &trans  &trans  &trans  &mo 2  &trans  &trans  &trans  &trans  &trans  &trans
     >;
   };
 
   function_layer {
     bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &kp F7  &kp F8  &kp F9  &kp F10  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_VOL_UP  &trans  &trans  &bt BT_SEL 1  &kp F4  &kp F5  &kp F6  &kp F11  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE  &trans  &trans  &bt BT_SEL 2  &kp F1  &kp F2  &kp F3  &kp F12  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bl BL_OFF  &bl BL_ON  &bt BT_CLR  &kp C_VOL_DN  &trans  &trans  &trans  &trans  &trans  &trans  &to 0  &trans  &trans  &trans  &hml LC(LS(LALT)) 2  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_VOL_UP  &trans  &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE  &trans  &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bl BL_OFF  &bl BL_ON  &trans  &kp C_VOL_DN  &trans  &trans  &trans  &trans  &trans  &trans  &to 0  &bt BT_CLR  &trans  &trans  &mo 2  &trans  &trans  &trans  &trans  &trans  &trans
     >;
   };
 };};
